@@ -9,7 +9,5 @@ public class HelloWorldService {
     @Value("${name:World}")
     private String name;
 
-    public String getHelloMessage() {
-        return "Hello " + this.name;
-    }
+    public String getHelloMessage() { return "Hello " + this.name; }
 }
