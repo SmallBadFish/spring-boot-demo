@@ -13,6 +13,7 @@
         <module>bootExt02</module>
         <module>bootExt03</module>
         <module>spring-boot-demo-activemq</module>
+        <module>spring-boot-demo-amqp</module>
     </modules>
 
     <properties>
@@ -34,4 +35,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
