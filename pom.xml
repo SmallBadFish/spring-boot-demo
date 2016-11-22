@@ -14,6 +14,7 @@
         <module>bootExt03</module>
         <module>spring-boot-demo-activemq</module>
         <module>spring-boot-demo-amqp</module>
+        <module>spring-boot-sample-tomcat7-jsp</module>
     </modules>
 
     <properties>
