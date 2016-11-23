@@ -14,8 +14,10 @@
         <module>bootExt03</module>
         <module>spring-boot-demo-activemq</module>
         <module>spring-boot-demo-amqp</module>
+        <module>spring-boot-demo-tomcat</module>
         <module>spring-boot-demo-tomcat7-jsp</module>
         <module>spring-boot-demo-tomcat7-ssl</module>
+        <module>spring-boot-demo-tomcat80-ssl</module>
     </modules>
 
     <properties>
@@ -25,12 +27,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <version>${spring.boot.version}</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -44,13 +40,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

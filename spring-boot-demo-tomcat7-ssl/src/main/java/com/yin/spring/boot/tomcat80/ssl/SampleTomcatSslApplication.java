@@ -1,4 +1,4 @@
-package com.yin.spring.boot.tomcat.ssl;
+package com.yin.spring.boot.tomcat80.ssl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
